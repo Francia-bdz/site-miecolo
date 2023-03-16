@@ -40,6 +40,12 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+}
+
 
 /* ////////////////////////// HEADER \\\\\\\\\\\\\\\\\\\\\\\\\*/
 
@@ -104,7 +110,7 @@ h1 {
     display: flex;
 }
 
-.left{
+.left {
     width: 60%;
     height: 100%;
 
@@ -133,22 +139,23 @@ h1 {
     font-weight: normal;
 }
 
-.left .landing-button{
+.left .landing-button {
     margin-left: 7rem;
     margin-top: 12.2rem;
     padding: 1rem 1rem;
     background-color: #F7E171;
     font-family: 'Roboto';
-    font-weight:bold;
+    font-weight: bold;
     font-size: 25px;
     box-shadow: 0px 4.93023px 4.93023px rgba(0, 0, 0, 0.25);
 }
-.left .landing-button a{
+
+.left .landing-button a {
     color: #50776D;
 }
 
 
-.right{
+.right {
     position: relative;
     width: 40%;
     height: 100%;
@@ -157,7 +164,91 @@ h1 {
     justify-content: flex-end;
 }
 
-.right img{
+.right img {
     position: relative;
     z-index: 1;
+}
+
+/* ////////////////////////// CONCOURS \\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+
+.concours {
+    position: relative;
+    background-color: #86C6B5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('/assets/SVG/grid.svg');
+    background-size: 66.8vw;
+}
+
+.concours-wrapper {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: fit-content;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 3rem 30%;
+    margin: 4rem 0;
+}
+
+.concours p {
+    margin: 0;
+    font-family: 'Roboto';
+    font-weight: normal;
+    width: fit-content;
+}
+
+.concours h2 {
+    margin: 0;
+    width: fit-content;
+}
+
+.concours-button{
+    margin-top: 3rem;
+}
+.concours-button a {
+    color: white;
+    font-size: 25px;
+}
+
+.concours-wrapper-back{
+    position: absolute;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 3rem 30%;
+    margin: 4rem 0;
+    z-index: 1;
+    transform: translate(1rem, 1rem);
+    background-color: rgba(255, 255, 255, 0.642);
+    box-shadow: 0px 4px 9px 6px rgba(0, 0, 0, 0.25);
+}
+
+
+/* ////////////////////////// BLOCS JUSTE \\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+.blocs-wrapper{
+    width: 100vw;
+}
+
+.bloc{
+    height: 60vh;
+}
+
+.bloc-choix{
+    
+}
+.bloc-conseil{
+    background-color: #DDA1CC;
+}
+.bloc-poids{
+
+}
+.bloc-prix{
+    background-color: #EC875C;
 }
