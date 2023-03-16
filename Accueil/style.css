@@ -15,7 +15,7 @@ a {
 }
 
 button {
-    font-family: 'Playfair Display';
+    font-family: 'Roboto';
     font-weight: bolder;
     background-color: #86C6B5;
     color: white;
@@ -25,6 +25,9 @@ button {
     padding-right: 1rem;
     border-radius: 0.5rem;
     border: none;
+    font-size: 25px;
+    font-weight: bold;
+
 }
 
 li {
@@ -46,6 +49,16 @@ h2 {
     font-weight: bold;
 }
 
+h3 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bolder;
+}
+
+span {
+    font-style: italic;
+}
+
 
 /* ////////////////////////// HEADER \\\\\\\\\\\\\\\\\\\\\\\\\*/
 
@@ -56,6 +69,11 @@ h2 {
     justify-content: space-between;
     box-shadow: 2px 2px 8px -6px;
     height: auto;
+}
+
+.game-button button {
+    font-family: 'Playfair Display';
+    font-size: 15px;
 }
 
 .menu_list {
@@ -145,7 +163,6 @@ h2 {
     padding: 1rem 1rem;
     background-color: #F7E171;
     font-family: 'Roboto';
-    font-weight: bold;
     font-size: 25px;
     box-shadow: 0px 4.93023px 4.93023px rgba(0, 0, 0, 0.25);
 }
@@ -209,15 +226,17 @@ h2 {
     width: fit-content;
 }
 
-.concours-button{
+.concours-button {
     margin-top: 3rem;
+    font-family: 'Playfair Display';
 }
+
 .concours-button a {
     color: white;
     font-size: 25px;
 }
 
-.concours-wrapper-back{
+.concours-wrapper-back {
     position: absolute;
     background-color: white;
     border-radius: 0.5rem;
@@ -232,23 +251,125 @@ h2 {
 
 /* ////////////////////////// BLOCS JUSTE \\\\\\\\\\\\\\\\\\\\\\\\\*/
 
-.blocs-wrapper{
+.blocs-wrapper {
     width: 100vw;
 }
 
-.bloc{
-    height: 60vh;
+.bloc {
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
 }
 
-.bloc-choix{
-    
+.bloc .title {
+    font-size: 35px;
 }
-.bloc-conseil{
+
+.bloc button {
+    box-shadow: 0px 4.93023px 4.93023px rgba(0, 0, 0, 0.25);
+
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+
+.bloc .title-wrapper {
+    background-color: white;
+
+    padding: 0.5rem;
+    width: fit-content;
+    margin-left: 5rem;
+    margin-top: 10rem;
+}
+
+.bloc .subtitle {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bloc img {
+    position: absolute;
+    top: 0;
+    left: 96%;
+    transform: translateX(-100%);
+}
+
+
+.bloc-choix {
+    background-image: url('/assets/SVG/gridChoix.svg');
+    background-position: top;
+    background-size: cover;
+
+}
+
+.bloc-conseil {
     background-color: #DDA1CC;
-}
-.bloc-poids{
 
+    background-image: url('/assets/SVG/gridConseil.svg');
+    background-position: top;
+    background-size: cover;
 }
-.bloc-prix{
+
+.bloc-conseil img {
+    left: 10rem;
+    top: 100%;
+    transform: translateY(-100%);
+}
+
+.bloc-conseil .title-wrapper {
+    background-color: #DDA1CC;
+    color: white;
+    padding: 0.5rem;
+    width: fit-content;
+    margin-top: 10rem;
+    position: relative;
+    left: 90vw;
+    transform: translateX(-100%);
+}
+
+.bloc-conseil button{
+    position: relative;
+    left: 83vw;
+    transform: translateX(-100%);
+
+    background-color: #F7E171;
+    color: #846079;
+}
+
+.bloc-poids {
+    background-image: url('/assets/SVG/gridPoids.svg');
+    background-position: top;
+    background-size: cover;
+}
+
+.bloc-prix {
     background-color: #EC875C;
+    background-image: url('/assets/SVG/gridPrix.svg');
+    background-position: top;
+    background-size: cover;
+}
+
+.bloc-prix img {
+    left: 2rem;
+    top: 100%;
+    transform: translateY(-100%);
+}
+
+.bloc-prix .title-wrapper {
+    background-color: #EC875C;
+    color: white;
+    padding: 0.5rem;
+    width: fit-content;
+    margin-top: 10rem;
+    position: relative;
+    left: 90vw;
+    transform: translateX(-100%);
+}
+
+.bloc-prix button{
+    position: relative;
+    left: 83vw;
+    transform: translateX(-100%);
+
+    background-color: #F7E171;
+    color: #8D5137;
 }
