@@ -1,17 +1,50 @@
-body,html{
+/* ////////////////////////// BASICS \\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+body,
+html {
     margin: 0;
     padding: 0;
     font-family: 'Roboto';
+    font-weight: bold;
+    overflow-x: hidden;
 }
 
-a{
+a {
     text-decoration: none;
+    color: black;
 }
 
-li{
+button {
+    font-family: 'Playfair Display';
+    font-weight: bolder;
+    background-color: #86C6B5;
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+li {
     list-style: none;
 }
-.menu{
+
+h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 60px;
+    margin: 0;
+}
+
+
+/* ////////////////////////// HEADER \\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+
+.menu {
     display: flex;
     padding: 0.5% 2%;
     justify-content: space-between;
@@ -19,19 +52,112 @@ li{
     height: auto;
 }
 
-.menu_list{
+.menu_list {
     font-family: 'Playfair Display';
     display: flex;
     align-items: center;
     flex-direction: row;
 }
 
-.menu_list li{
-margin: 0 10px;
+.menu_list li {
+    margin: 0 10px;
 }
 
-.game_button{
+
+
+.cart {
+    height: 2rem;
+    position: relative;
+}
+
+.cart img {
+    height: 100%;
+}
+
+.cart-number-wrapper {
+    position: absolute;
+    top: 0;
+    left: 80%;
+    width: 1rem;
+    height: 1rem;
+
     background-color: #86C6B5;
+    border-radius: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-number {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 10px;
     color: white;
-    padding: 5px;
-border-radius: 2px;}
+}
+
+/* ////////////////////////// LANDING \\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+.landing {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+}
+
+.left{
+    width: 60%;
+    height: 100%;
+
+    background-color: #86C6B5;
+    background-image: url('/assets/SVG/grid.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.left .title-wrapper {
+    color: white;
+    width: fit-content;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    padding: 2rem;
+    background-color: #86C6B5;
+}
+
+.left .title-wrapper .title span {
+    font-style: italic;
+}
+
+.left .title-wrapper .subtitle {
+    color: white;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.left .landing-button{
+    margin-left: 7rem;
+    margin-top: 12.2rem;
+    padding: 1rem 1rem;
+    background-color: #F7E171;
+    font-family: 'Roboto';
+    font-weight:bold;
+    font-size: 25px;
+    box-shadow: 0px 4.93023px 4.93023px rgba(0, 0, 0, 0.25);
+}
+.left .landing-button a{
+    color: #50776D;
+}
+
+
+.right{
+    position: relative;
+    width: 40%;
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right img{
+    position: relative;
+    z-index: 1;
+}
