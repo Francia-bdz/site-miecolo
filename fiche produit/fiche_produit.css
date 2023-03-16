@@ -6,6 +6,33 @@
     margin: 0;
 }
 
+h1{
+    font-family: 'Playfair Display';
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+
+}
+
+.juste_choix{
+    position: absolute;
+    color: #FFFFFF;
+    margin-left: 954px;
+    margin-top: 104px;;
+    background-color: #86C6B5;
+    width: 330px;
+    height: 109px;
+    padding-left: 50px;
+    padding-top: 10;
+}
+
+.blanc_sous_titre{
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+}
 button {
     font-family: 'Roboto';
     font-weight: bolder;
