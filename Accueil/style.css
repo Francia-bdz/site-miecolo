@@ -373,3 +373,60 @@ span {
     background-color: #F7E171;
     color: #8D5137;
 }
+
+
+
+/* ////////////////////////// FOOTER \\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+footer{
+    height: 500px;
+}
+
+.top{
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.top ul{
+    height: fit-content;
+}
+
+.top h4{
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.top li{
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 2.5rem;
+    width: fit-content;
+}
+
+.top .icons{
+    display: flex;
+    padding: 0;
+    width: 150%;
+    justify-content: space-around;
+}
+
+.bottom{
+    height: 10%;
+    background-color: #3b85601d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.bottom h3{
+    font-family: 'Roboto';
+    margin: 0 5rem;
+    font-weight: normal;
+    font-size: 14px;
+}
+
