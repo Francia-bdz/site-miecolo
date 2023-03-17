@@ -726,6 +726,6 @@ color: rgba(0, 0, 0, 0.5);
 /* /////////////////////////////////////// LARAVEL STYLE //////////////////////////////////////////// */
 
 .checkbox{
-    width: auto;
-    height: auto;
+    width: auto !important;
+    height: auto !important;
 }
