@@ -1,0 +1,181 @@
+/*////////////////////////// BASICS \\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-weight: bold;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    font-family: 'Roboto';
+    font-weight: bolder;
+    background-color: #86C6B5;
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 60px;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bolder;
+}
+
+span {
+    font-style: italic;
+}
+
+
+/* ////////////////////////// HEADER \\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+
+.menu {
+    display: flex;
+    padding: 0.5% 2%;
+    justify-content: space-between;
+    box-shadow: 2px 2px 8px -6px;
+    height: auto;
+}
+
+.game-button button {
+    font-family: 'Playfair Display';
+    font-size: 15px;
+}
+
+.menu_list {
+    font-family: 'Playfair Display';
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.menu_list li {
+    margin: 0 10px;
+}
+
+
+
+.cart {
+    height: 2rem;
+    position: relative;
+}
+
+.cart img {
+    height: 100%;
+}
+
+.cart-number-wrapper {
+    position: absolute;
+    top: 0;
+    left: 80%;
+    width: 1rem;
+    height: 1rem;
+
+    background-color: #86C6B5;
+    border-radius: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-number {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+}
+
+
+
+
+/* ////////////////////////// FOOTER \\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+
+footer {
+    height: 500px;
+}
+
+.top {
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.top ul {
+    height: fit-content;
+}
+
+.top h4 {
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.top li {
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 2.5rem;
+    width: fit-content;
+}
+
+.top .icons {
+    display: flex;
+    padding: 0;
+    width: 150%;
+    justify-content: space-around;
+}
+
+.bottom {
+    height: 10%;
+    background-color: #3b85601d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.bottom h3 {
+    font-family: 'Roboto';
+    margin: 0 5rem;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+
