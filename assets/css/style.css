@@ -458,7 +458,7 @@ footer{
     position: absolute;
 }
 
-.bloc{
+.bloc-connexion{
     position: absolute;
     z-index: 1;
     width: 480px;
