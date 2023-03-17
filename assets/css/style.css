@@ -939,6 +939,56 @@ footer{
     transform: translateX(-100%);
 }
 
+
+/* ////////////////////////// CONTACT \\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+.contact-img{
+    position: absolute;
+}
+
+.contact-title{
+    position: relative;
+    width: fit-content;
+
+    margin-top: 5rem;
+    margin-left: 5rem;
+
+    background-color: white;
+}
+
+.contact-wrapper{
+    background-color: #DDA1CC;
+    position: relative;
+    z-index: 1;
+    width: fit-content;
+    padding: 2rem;
+
+    border-radius: 0.5rem;
+    height: fit-content;
+}
+
+.contact-content{
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 2rem;
+}
+
+.contact-content img{
+    transform: scaleX(-100%);
+}
+
+
+.contact-wrapper h1{
+    color: white;
+}
+.contact-wrapper p{
+    color: white;
+    margin-top: 3rem;
+    font-weight: normal;
+}
+
+
 /* //////////////////////////////////////// DO NOT TOUCH //////////////////////////////////////////// */
 /* /////////////////////////////////////// LARAVEL STYLE //////////////////////////////////////////// */
 
