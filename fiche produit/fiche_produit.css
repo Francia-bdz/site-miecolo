@@ -39,7 +39,7 @@
     font-weight: 400;
     font-size: 20px;
 }
-button {
+.concours-button {
     font-family: 'Roboto';
     font-weight: bolder;
     background-color: #86C6B5;
@@ -62,7 +62,7 @@ button {
     margin-top: 116px;
 }
 
-input{
+.submit-produit{
     /* padding: 7.75px 10.85px; */
     width: 221px;
     height: 50px;
