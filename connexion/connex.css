@@ -1,12 +1,12 @@
 
-p{
+.co-p{
     font-family: 'Roboto';
     font-size: 18px;
     font-style: italic;
     margin-left: 90px;
 }
 
-a{
+.co-p a{
     color: #86C6B5;
     font-style:normal;
 }
