@@ -1,3 +1,7 @@
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////// HOME PAGE ///////////////////////////////////////////// */
+
+
 /* ////////////////////////// BASICS \\\\\\\\\\\\\\\\\\\\\\\\\*/
 
 body,
@@ -430,3 +434,298 @@ footer{
     font-size: 14px;
 }
 
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////// CONNEXION PAGE //////////////////////////////////////////// */
+
+
+
+.co-p{
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: italic;
+    margin-left: 90px;
+}
+
+.co-p a{
+    color: #86C6B5;
+    font-style:normal;
+}
+.fond_connex{
+    margin-top: 286px;
+    width: 100%;
+    position: absolute;
+}
+
+.bloc{
+    position: absolute;
+    z-index: 1;
+    width: 480px;
+    height: 636px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.13);
+    left: 54%;
+    top: 210px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    width: 350px;
+    height: auto;
+    margin-left: 13%;
+    margin-top: 10%;
+    border-bottom: 1px solid #E1E1E1;
+    padding-bottom: 53px;
+}
+
+.connect-form{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.connect-form input{
+    /* padding: 7.75px 10.85px; */
+    width: 300px;
+    height: 48px;
+    margin-top: 35px;
+    border: 0.775px solid #D0D5DD;
+    box-shadow: 0px 0.775px 1.55px rgba(16, 24, 40, 0.05);
+    border-radius: 6.2px;
+    font-size: 20px;
+}
+
+.butt_connexion{
+    background-color: #86C6B5;
+    font-size: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+    margin-top: 50px;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////// PRODUIT PAGE //////////////////////////////////////////// */
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.fond h1{
+    font-family: 'Playfair Display';
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.concours-wrapper p, .concours-wrapper-back p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.juste_choix{
+    position: absolute;
+    color: #FFFFFF;
+    margin-left: 954px;
+    margin-top: 104px;;
+    background-color: #86C6B5;
+    width: 330px;
+    height: 109px;
+    padding-left: 50px;
+    padding-top: 10;
+}
+
+.blanc_sous_titre{
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+}
+.concours-button {
+    font-family: 'Roboto';
+    font-weight: bolder;
+    background-color: #86C6B5;
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.flex_img{
+    display: flex;
+    flex-direction: column;
+    width: 342px;
+    margin-left: 138px;
+    margin-top: 116px;
+}
+
+.submit-produit{
+    /* padding: 7.75px 10.85px; */
+    width: 221px;
+    height: 50px;
+    margin-top: 35px;
+    border: 0.775px solid #D0D5DD;
+    box-shadow: 0px 0.775px 1.55px rgba(16, 24, 40, 0.05);
+    border-radius: 6.2px;
+    font-size: 20px;
+}
+
+.butt_tech{
+    background-color: white ;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    color: #86C6B5;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.flex_tout{
+    display: flex;
+    flex-direction: row;
+}
+.flex_txt_case{
+    display: flex;
+    flex-direction: column;
+    margin-top: 116px;
+    width: 693px;
+    margin-left: 75px;
+}
+
+.bloc_ajout{
+    position: absolute;
+    width: 693px;
+    height: 200px;
+    left: 590px;
+    top: 752px;
+
+    border: 1px solid #86C6B5;
+    filter: drop-shadow(0px 4px 4px #86C6B5);
+    border-radius: 10px;
+}
+.flex_titre{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    
+}
+.prix{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10px;
+
+color: rgba(0, 0, 0, 0.5);
+}
+
+.position_txt{
+    position: absolute;
+    margin-top: 319px;
+    width: 700px;
+    margin-left:55px;;
+}
+
+.fond{
+    background: #86C6B5 ;
+    width: 100%;
+    height: 600px;
+}
+
+.fond_gri{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+ .z{
+    position: absolute;
+    z-index: 3;
+    margin-top: 154px;
+    margin-left: 105px ;
+ }
+ .z_2{
+    position: absolute;
+    z-index: 3;
+    margin-top: 156px;
+    margin-left: 25% ;
+ }
+
+.concours {
+    position: relative;
+    /* background-color: #86C6B5; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 225px;
+   
+
+    /* background-image: url('/assets/SVG/grid.svg'); */
+    background-size: 66.8vw;
+}
+
+.concours-wrapper {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: fit-content;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 3rem 30%;
+    margin: 4rem 0;
+}
+
+.concours p {
+    margin: 0;
+    font-family: 'Roboto';
+    font-weight: normal;
+    width: fit-content;
+}
+
+.concours h2 {
+    margin: 0;
+    width: fit-content;
+}
+
+.concours-button {
+    margin-top: 3rem;
+    font-family: 'Playfair Display';
+}
+
+.concours-button a {
+    color: white;
+    font-size: 25px;
+}
+
+.concours-wrapper-back {
+    position: absolute;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 3rem 30%;
+    margin: 4rem 0;
+    z-index: 1;
+    transform: translate(1rem, 1rem);
+    background-color: rgba(255, 255, 255, 0.642);
+    box-shadow: 0px 4px 9px 6px rgba(0, 0, 0, 0.25);
+}
