@@ -193,7 +193,7 @@ span {
 /* ////////////////////////// CONCOURS \\\\\\\\\\\\\\\\\\\\\\\\\*/
 
 
-.concours {
+.concours-landing {
     position: relative;
     background-color: #86C6B5;
     display: flex;
@@ -218,14 +218,14 @@ span {
     margin: 4rem 0;
 }
 
-.concours p {
+.concours-landing p {
     margin: 0;
     font-family: 'Roboto';
     font-weight: normal;
     width: fit-content;
 }
 
-.concours h2 {
+.concours-landing h2 {
     margin: 0;
     width: fit-content;
 }
